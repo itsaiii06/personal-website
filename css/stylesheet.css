@@ -1,28 +1,44 @@
-
 div {
-  background-color: powderblue;
-
-}
-
-h1 {
-  margin: 0;
+  background-color : powderblue;
 }
 
 body {
-  margin: 0;
+  margin : 0;
+  text-align : center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Fascinate', cursive;
+  margin : 0 auto 0 auto;
+  padding-top: 75px;
+  padding-bottom: 20px;
+
+
+}
+
+  p {
+  font-family: 'Poppins', sans-serif;
+  margin : 0 auto 0 auto;
+}
+
+.bottom-cloud {
+
+  position : absolute;
+  left : 20%;
+}
+
+.top-cloud {
+
+  position : absolute;
+  right : 20%;
 }
 
 
-
-
-#middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: green;
+#container {
+  padding-top: 50px;
 }
 
-#bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+#mountain-img {
+  margin: 0 auto 0 auto;
 }
