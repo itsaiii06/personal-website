@@ -1,6 +1,5 @@
-div {
-  background-color : powderblue;
-}
+/* CLASS SELECTORS ------------------------ */
+
 
 body {
   margin : 0;
@@ -9,36 +8,65 @@ body {
 }
 
 h1 {
-  font-family: 'Fascinate', cursive;
+  font-family: 'Sacramento', cursive;
   margin : 0 auto 0 auto;
   padding-top: 75px;
-  padding-bottom: 20px;
+  font-size: 64px;
+  color: #66BFBF;
 
 
 }
 
   p {
-  font-family: 'Poppins', sans-serif;
-  margin : 0 auto 0 auto;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin : 0 auto 0 auto;
 }
 
-.bottom-cloud {
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  background-color: transparent;
+  width: 10%;
+  color: grey;
+
+}
+
+/* CLASS SELECTORS ---------------------------- */
+
+.container {
+  background-color : #EAF6F6;
+  padding-top: 50px;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+/* ID SELECTORS -------------------------- */
+#bottom-cloud {
 
   position : absolute;
   left : 20%;
 }
 
-.top-cloud {
-
-  position : absolute;
+  #top-cloud {
+  position: absolute;
   right : 20%;
 }
 
 
-#container {
-  padding-top: 50px;
-}
 
 #mountain-img {
   margin: 0 auto 0 auto;
+}
+
+#me-img {
+  margin: 75px auto 0 auto;
+  border-radius: 100%;
+  width : 215px;
+}
+
+#top-para {
+  color : #66BFBF;
 }
